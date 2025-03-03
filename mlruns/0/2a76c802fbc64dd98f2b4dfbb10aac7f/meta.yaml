@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SEM%20VIII/Network_sec_ml/mlruns/0/2a76c802fbc64dd98f2b4dfbb10aac7f/artifacts
+end_time: 1740990447089
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a76c802fbc64dd98f2b4dfbb10aac7f
+run_name: clean-ram-743
+run_uuid: 2a76c802fbc64dd98f2b4dfbb10aac7f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740990440014
+status: 3
+tags: []
+user_id: uravf
