@@ -83,10 +83,10 @@ def evaluate_models(X_train, y_train,X_test,y_test,models,param):
             model = list(models.values())[i]
             para=param[list(models.keys())[i]]
 
-            gs = GridSearchCV(model,para,cv=3)
+            gs = GridSearchCV(model,para,cv=3) #hyperparameter tuning
             gs.fit(X_train,y_train)
 
-            model.set_params(**gs.best_params_)
+            model.set_params(**gs.best_params_) #set best parameters, ** is used to unpack the dictionary
             model.fit(X_train,y_train)
 
             #model.fit(X_train, y_train)  # Train model
