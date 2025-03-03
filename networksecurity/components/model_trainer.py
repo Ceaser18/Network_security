@@ -24,6 +24,11 @@ from sklearn.ensemble import (
     RandomForestClassifier,
 )
 
+import dagshub
+dagshub.init(repo_owner='uravfarooqui3', repo_name='Network_security', mlflow=True)
+
+
+
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,data_transformation_artifact:DataTransformationArtifact):
         try:
