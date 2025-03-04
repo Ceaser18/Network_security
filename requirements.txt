@@ -9,4 +9,6 @@ dill
 scikit-learn
 mlflow
 dagshub
+fastapi
+uvicorn
 ##-e .
