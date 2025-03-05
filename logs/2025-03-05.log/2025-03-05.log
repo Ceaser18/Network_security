@@ -1,0 +1,42 @@
+[2025-03-05 13:40:03,057] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:40:03,573] [INFO] [dagshub] [log_message] [107] Accessing as uravfarooqui3
+[2025-03-05 13:40:04,017] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/repos/uravfarooqui3/Network_security "HTTP/1.1 200 OK"
+[2025-03-05 13:40:04,426] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:40:04,432] [INFO] [dagshub] [log_message] [107] Initialized MLflow to track repo "uravfarooqui3/Network_security"
+[2025-03-05 13:40:04,432] [INFO] [dagshub] [log_message] [107] Repository uravfarooqui3/Network_security initialized!
+[2025-03-05 13:44:26,528] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:44:26,536] [INFO] [dagshub] [log_message] [107] Accessing as uravfarooqui3
+[2025-03-05 13:44:26,924] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/repos/uravfarooqui3/Network_security "HTTP/1.1 200 OK"
+[2025-03-05 13:44:27,265] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:44:27,268] [INFO] [dagshub] [log_message] [107] Initialized MLflow to track repo "uravfarooqui3/Network_security"
+[2025-03-05 13:44:27,269] [INFO] [dagshub] [log_message] [107] Repository uravfarooqui3/Network_security initialized!
+[2025-03-05 13:45:19,202] [INFO] [root] [start_data_ingestion] [42] Start data Ingestion
+[2025-03-05 13:45:22,139] [INFO] [root] [split_data_as_train_test] [65] Performed train test split on the dataframe
+[2025-03-05 13:45:22,140] [INFO] [root] [split_data_as_train_test] [67] Exited split_data_as_train_test method of Data_Ingestion class
+[2025-03-05 13:45:22,140] [INFO] [root] [split_data_as_train_test] [75] Exporting train and test file path.
+[2025-03-05 13:45:22,236] [INFO] [root] [split_data_as_train_test] [84] Exported train and test file path.
+[2025-03-05 13:45:22,237] [INFO] [root] [start_data_ingestion] [45] Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\03_05_2025_13_44_20\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\03_05_2025_13_44_20\\data_ingestion\\ingested\\test.csv')
+[2025-03-05 13:45:22,283] [INFO] [root] [start_data_validation] [55] Initiate the data Validation
+[2025-03-05 13:45:22,389] [INFO] [root] [validate_number_of_columns] [32] Required number of columns:2
+[2025-03-05 13:45:22,389] [INFO] [root] [validate_number_of_columns] [33] Data frame has columns:31
+[2025-03-05 13:45:22,389] [INFO] [root] [validate_number_of_columns] [32] Required number of columns:2
+[2025-03-05 13:45:22,389] [INFO] [root] [validate_number_of_columns] [33] Data frame has columns:31
+[2025-03-05 13:45:22,861] [INFO] [root] [initiate_data_transformation] [63] Entered initiate_data_transformation method of DataTransformation class
+[2025-03-05 13:45:22,861] [INFO] [root] [initiate_data_transformation] [65] Starting data transformation
+[2025-03-05 13:45:22,910] [INFO] [root] [get_data_transformer_object] [48] Entered get_data_trnasformer_object method of Trnasformation class
+[2025-03-05 13:45:22,910] [INFO] [root] [get_data_transformer_object] [53] Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-03-05 13:45:23,069] [INFO] [root] [save_object] [46] Entered the save_object method of MainUtils class
+[2025-03-05 13:45:23,076] [INFO] [root] [save_object] [50] Exited the save_object method of MainUtils class
+[2025-03-05 13:45:23,076] [INFO] [root] [save_object] [46] Entered the save_object method of MainUtils class
+[2025-03-05 13:45:23,085] [INFO] [root] [save_object] [50] Exited the save_object method of MainUtils class
+[2025-03-05 13:51:07,165] [INFO] [root] [save_object] [46] Entered the save_object method of MainUtils class
+[2025-03-05 13:51:07,165] [INFO] [root] [save_object] [50] Exited the save_object method of MainUtils class
+[2025-03-05 13:51:07,165] [INFO] [root] [save_object] [46] Entered the save_object method of MainUtils class
+[2025-03-05 13:51:07,255] [INFO] [root] [save_object] [50] Exited the save_object method of MainUtils class
+[2025-03-05 13:51:07,255] [INFO] [root] [train_model] [131] Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\03_05_2025_13_44_20\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9867973594718944, precision_score=0.9867973594718944, recall_score=0.9949576442113756), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9634146341463414, precision_score=0.9634146341463414, recall_score=0.9883236030025021))
+[2025-03-05 13:54:12,017] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:54:12,028] [INFO] [dagshub] [log_message] [107] Accessing as uravfarooqui3
+[2025-03-05 13:54:12,443] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/repos/uravfarooqui3/Network_security "HTTP/1.1 200 OK"
+[2025-03-05 13:54:13,023] [INFO] [httpx] [_send_single_request] [1025] HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-03-05 13:54:13,023] [INFO] [dagshub] [log_message] [107] Initialized MLflow to track repo "uravfarooqui3/Network_security"
+[2025-03-05 13:54:13,023] [INFO] [dagshub] [log_message] [107] Repository uravfarooqui3/Network_security initialized!
